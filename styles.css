@@ -132,7 +132,7 @@ a {
     align-items: center;
     flex-direction: column;
     gap: 5px;
-    max-width: 100px;
+    /* max-width: 100px; */
 }
 
 .box-placeholder {
@@ -140,6 +140,10 @@ a {
     border-radius: 10px;
     width: 100px;
     height: 100px;
+}
+
+.box-text {
+    max-width: 100px;
 }
 
 .quote-section {
@@ -168,3 +172,54 @@ a {
     color: #1F2937;
 }
 
+.action-section {
+    margin: 75px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-rectangle {
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+}
+
+.action-section-left {
+    flex: 1 0;
+}
+
+.action-header {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.action-text {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: solid white 2px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    padding: 1px 25px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 30px;
+}
