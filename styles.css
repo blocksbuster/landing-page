@@ -100,10 +100,11 @@ a {
 
 .hero-button {
     background-color: #3882F6;
+    font-size: medium;
     color: #F9FAF8;
     border: transparent;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 8px 20px;
 }
 
 .information {
@@ -168,7 +169,7 @@ a {
 .the-quoted {
     align-self: flex-end;
     font-weight: 900;
-    font-size: 18px;
+    font-size: 20px;
     color: #1F2937;
 }
 
@@ -192,7 +193,9 @@ a {
 }
 
 .action-section-left {
-    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
 }
 
 .action-header {
@@ -211,6 +214,8 @@ a {
     border: solid white 2px;
     border-radius: 5px;
     flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 900;
     padding: 1px 25px;
 }
 
